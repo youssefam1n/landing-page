@@ -10,22 +10,43 @@ body {
     padding: 8px 15%;
 }
 
-.top p,
-.links {
-    display: inline;
+.top {
+    display: flex;
 }
 
 .top p {
     font-size: 24px;
     color: #F9FAF8;
     margin-right: 50%;
+    margin-top: 0;
+    font-weight: bold;
 }
 
-.links a {
-    padding: 16px;
+.top a {
+    padding: 0 16px;
     font-size: 18px;
     color: #E5E7EB;
+    display: inline;
 }
+
+.bot {
+    display: flex;
+    margin: 48px 0;
+}
+
+.botc {
+    flex: 1;
+}
+
+img {
+    width: 672px;
+    height: 356px;
+}
+
+.img {
+    flex: 1;
+}
+
 
 .botc h1,
 .botc p {
@@ -40,9 +61,11 @@ body {
 }
 
 .botc button {
+    border-radius: 10px;
     margin-top: 8px;
-    padding: 2px 4px;
+    padding: 8px 16px;
     background-color: #3882F6;
     border: 0;
     color: #E5E7EB;
+    font-size: 18px;
 }
