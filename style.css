@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 8px 15%;
+}
+
+.top p,
+.links {
+    display: inline;
+}
+
+.top p {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: 50%;
+}
+
+.links a {
+    padding: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.botc h1,
+.botc p {
+    padding: 0;
+    margin: 0;
+}
+
+.botc h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.botc button {
+    margin-top: 8px;
+    padding: 2px 4px;
+    background-color: #3882F6;
+    border: 0;
+    color: #E5E7EB;
+}
