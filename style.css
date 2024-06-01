@@ -4,10 +4,16 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+.header,
+.main,
+.footer {
+    padding: 8px 15%;
+}
+
+.header,
+.footer {
     background-color: #1F2937;
     color: white;
-    padding: 8px 15%;
 }
 
 .top {
@@ -60,6 +66,10 @@ img {
     color: #F9FAF8;
 }
 
+.botc p {
+    font-size: large;
+}
+
 .botc button {
     border-radius: 10px;
     margin-top: 8px;
@@ -68,4 +78,87 @@ img {
     border: 0;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.flex-list {
+    display: flex;
+}
+
+.flex-list .flex {
+    flex: 1;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    flex: 1 1 0;
+    border: solid #3882F6;
+    border-radius: 15px;
+    padding: 75px;
+}
+
+.txt {
+    flex: 0 1 0;
+    margin: 0 16px;
+    padding: 4px 75px;
+    color: #0000008a;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 25px 19%;
+    margin: 75px 0;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quoter {
+    text-align: right;
+}
+
+.Sign {
+    margin: 50px 15%;
+    padding: 25px 50px;
+    background-color: #3382F6;
+    border-radius: 10px;
+    display: flex;
+    color: #E5E7EB;
+}
+
+.Sign h3,
+.Sign p {
+    margin: 4px 0;
+}
+
+.Sign div {
+    flex: 2;
+    padding: 8px 25px;
+}
+
+.Sign button {
+    margin: 20px;
+    padding: 4px 32px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3382F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
 }
